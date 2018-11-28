@@ -45,6 +45,9 @@ body.hovering {
 img {
   max-width: 100%; }
 
+header {
+  padding: 20px; }
+
 .clearfix {
   content: "";
   clear: both;
@@ -56,8 +59,9 @@ img {
   position: relative;
   z-index: 9; }
 
-.return-button {
-  padding: 20px; }
+.return-buttonh {
+  padding: 20px;
+  width: 30%; }
 
 .nav {
   padding: 20px 20px;
@@ -75,6 +79,18 @@ img {
     font-size: 30px;
     font-family: Elephant;
     color: pink; }
+
+.content {
+  padding: 20px; }
+
+.center-column {
+  float: left;
+  width: 40%;
+  margin-left: 2%;
+  text-align: center center;
+  color: pink;
+  position: relative;
+  z-index: 99; }
 
 #Gallery .bgimage {
   background-image: url("images/personal_galaxy3_jpg.jpg"); }
@@ -113,11 +129,8 @@ img {
     font-family: Elephant;
     color: pink; }
 
-#Collections .bgimage {
-  background-image: url("images/20171121_084457.png"); }
-
-img {
-  max-width: 100%; }
+#Materials {
+  background-color: #F5ECCE; }
 
 .clearfix {
   content: "";
